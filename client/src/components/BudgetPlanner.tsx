@@ -36,6 +36,7 @@ const BudgetPlanner: React.FC = () => {
     blockedMoneyDate: '',
   });
 
+  // Initialize expenses with empty strings for all fields
   const [expenses, setExpenses] = useState<Expenses>(() => {
     const initialExpenses = {} as Expenses;
     [...NEEDS_FIELDS, ...WANTS_FIELDS, ...SAVINGS_FIELDS].forEach(field => {
