@@ -78,7 +78,7 @@ const ViewBudget: React.FC = () => {
   };
 
   const totals = budget ? calculateTotals() : null;
-
+//return the JSX for the ViewBudget component
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-100 p-6">
       <div className="max-w-5xl mx-auto bg-white rounded-lg shadow p-6">
