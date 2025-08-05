@@ -10,21 +10,23 @@ const budgetSchema = new mongoose.Schema({
     miniJobDate: String,
     blockedMoneyDate: String,
   },
-  expenses: {
-    Rent: String,
-    Transport: String,
-    Tax: String,
-    Grocery: String,
-    Recharge: String,
-    Gym: String,
-    'Loans/EMI s': String,
-    Clothing: String,
-    Food: String,
-    Movies: String,
-    Subscriptions: String,
-    Emergency: String,
-    'Mutual Funds ': String,
-  },
+expenses: {
+  Rent: String,
+  Transport: String,
+  Tax: String,
+  Grocery: String,
+  Recharge: String,
+  Gym: String,
+  LoansEMI: String,
+  OtherExpenses: String,        
+  Clothing: String,
+  Food: String,
+  Movies: String,
+  Subscriptions: String,
+  Emergency: String,
+  MutualFunds: String       
+},
+
 });
 
 module.exports = mongoose.model('Budget', budgetSchema);
