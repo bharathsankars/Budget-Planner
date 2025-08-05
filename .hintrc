@@ -9,6 +9,8 @@
         "label": "off"
       }
     ],
-    "axe/parsing": "off"
+    "axe/parsing": "off",
+    "typescript-config/consistent-casing": "off",
+    "typescript-config/strict": "off"
   }
 }
